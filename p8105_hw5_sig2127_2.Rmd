@@ -93,7 +93,6 @@ sim_prob_3_results =
 ```
 
 ## Making a plot showing the proportion of times the null was rejected on the y axis and the true value of𝜇on the x axis 
-Describe the association between effect size and power.
 
 ```{r}
 sim_prob_3_results |> 
@@ -111,7 +110,7 @@ sim_prob_3_results |>
 
 Describe the association between effect size and power: As we have learned before, power increases with increasing effect size (μ). When μ = 0 the null is true, so the proportion of times the null was rejected is right around 0.05. As μ increases, power also steeply increases. This steep rise happens for smaller μ values before the curve then flattens and approaches 1. This flattening happens around μ = 4, and continues all the way to μ = 6. At μ = 6, the the power is 1, meaning the effect is almost always detected by the t-test. 
 
-## Making a plot showing the average estimate of 𝜇̂ on the y axis and the true value of 𝜇on the x axis. 
+## Making a plot showing the average estimate of 𝜇̂ on the y axis and the true value of 𝜇 on the x axis. 
 
 ```{r}
 sim_prob_3_results |> 
