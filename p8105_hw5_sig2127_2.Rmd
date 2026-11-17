@@ -9,9 +9,9 @@ library(tidyverse)
 
 # Problem 2 
 
-## Creating a tidy dataframe containing data from all participants, including the subject ID, arm, and observations over time. 
+## Creating a tidy data frame containing data from all participants, including the subject ID, arm, and observations over time. 
 
-## Start with a dataframe containing all file names and iterating over file names and reading in data for each subject using purrr::map and saving the result as a new variable in the dataframe
+## Start with a data frame containing all file names and iterating over file names and reading in data for each subject using purrr::map and saving the result as a new variable in the data frame
 
 ```{r}
 prob_2_df =
